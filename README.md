@@ -12,13 +12,11 @@ The first assignemnt was to implement Feedforward Neural Networks and report the
 
 ### Analysis with the trends
 
-```
-The first trend is the **number of hidden layers used** in the neural network. From the accuracy table, it’s obvious that **as we increase the number of hidden layers, the accuracy increases.** This happens because when we increase the hidden layers, we are giving more time and data to the neural network to train on the data. Every layer generates a loss of its own and this loss helps the model to learn and change the parameters. The more data we give to the model, higher are its chances to perform better.
-```
 
-```
-The second trend is the *activation function* used in the model. Of all the activation functions used, **RELU performed the best** irrespective of the number of hidden layers used. This was expected as RELU has an advantage of non-saturation of its gradient and hence accelerates the convergence of stochastic gradient descent. Also, RELU has been proven to be a default choice to train neural networks as they both work best.
-```
-```
+The first trend is the **number of hidden layers used** in the neural network. From the accuracy table, it’s obvious that **as we increase the number of hidden layers, the accuracy increases.** This happens because when we increase the hidden layers, we are giving more time and data to the neural network to train on the data. Every layer generates a loss of its own and this loss helps the model to learn and change the parameters. The more data we give to the model, higher are its chances to perform better. <br>
+
+The second trend is the *activation function* used in the model. Of all the activation functions used, **RELU performed the best** irrespective of the number of hidden layers used. This was expected as RELU has an advantage of non-saturation of its gradient and hence accelerates the convergence of stochastic gradient descent. Also, RELU has been proven to be a default choice to train neural networks as they both work best. <br>
+
+
 As we **increased the number of layers, the precision increased for models with RELU and tanh activation function.** But for logistic activation function, the precision did not increase even if we increased the number of hidden layers. Also, the accuracy with logistic activation function is very low compared to other function. This suggests that logistic is not a good choice to train this dataset.
-```
+
